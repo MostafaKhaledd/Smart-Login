@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #24353f;
+}
+.box_shadow{
+    box-shadow: 5px 5px 30px black;
+}
+.outline_info{
+    background-color: transparent;
+}
+input, textarea {
+    background-color: transparent !important;
+    color: #fff !important;
+} 
+a{
+    text-decoration:none;  
+}
+a:hover{
+    text-decoration: underline;
+}
+.box_shadow1{
+    box-shadow: 0px 2px 70px black;
+}
+#All{
+display: none;
+}
+#email{
+    display: none;
+}
+#unemail{
+    display: none;
+}
+#Success{
+    display: none;
+}

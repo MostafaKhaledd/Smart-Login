@@ -1,0 +1,29 @@
+<html>
+<head>
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="webfonts/Montserrat-VariableFont_wght.ttf">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div class="w-50 mt-5 m-auto box_shadow text-center p-5">
+  <h2 class="text-info pb-3">Smart Login System</h2>
+  <form>
+
+    <div class="my-3">
+        <input type="email" id="SuccessEmail" class="form-control outline_info" placeholder="Enter Your Email">
+    </div>
+    <div class="my-3">
+        <input type="password" id="SuccessPassword" class="form-control outline_info" placeholder="Enter Your Password">
+    </div>
+    <p id="All" class="py-2 text-danger fs-6">All inputs is required</p>
+    <p id="unemail" class="py-2 text-danger fs-6">incorrect email or password</p>
+    <button type="button" id="Submit" class="btn form-control btn-outline-info  mt-2" onclick="login()" >Login</button>
+    <p class="fs-6 mt-3 text-light">Don’t have an account? <a href="NewEmail.html" class="text-light">Sign Up</a></p>
+</div>
+
+
+ <script src="js/main.js"></script>
+</body>
+</html>
